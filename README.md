@@ -96,22 +96,6 @@ print(detecciones)
 Los pesos del modelo entrenado están disponibles en el directorio `weights`:
 - `lavado_mano_roboflow3.0.pt`
 
-## Aplicaciones
-
-Este modelo puede implementarse en diversos entornos:
-- Instalaciones de atención médica para garantizar protocolos adecuados de lavado de manos
-- Herramientas educativas para enseñar técnicas correctas de lavado de manos
-- Baños públicos para monitoreo automatizado de higiene
-- Control de calidad en entornos de preparación de alimentos
-
-## Trabajo Futuro
-
-Posibles mejoras y extensiones:
-- Ampliar el conjunto de datos con condiciones de iluminación más diversas
-- Añadir análisis temporal para detección de lavado de manos basada en secuencias
-- Implementar en dispositivos de borde para monitoreo en tiempo real
-- Integrar con sistemas existentes de monitoreo de higiene
-
 ## Licencia
 
 [Incluir información de licencia apropiada]
