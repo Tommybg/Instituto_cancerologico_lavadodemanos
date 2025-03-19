@@ -1,5 +1,7 @@
 # Modelo de Detección de Lavado de Manos (YOLOv11)
 
+**Detalles sobre la arquitectura de Yolo V11 en detalle [aquí](https://medium.com/@nikhil-rao-20/yolov11-explained-next-level-object-detection-with-enhanced-speed-and-accuracy-2dbe2d376f71)
+
 ## Descripción General
 
 Este repositorio contiene un modelo de detección de lavado de manos entrenado con la arquitectura YOLOv11 en Roboflow 3.0. El modelo está diseñado para detectar técnicas adecuadas de lavado de manos, necesario para tener accesos a la UCI y cumplir con lso protocolos sanitarios y cuidar de los pacientes. 
