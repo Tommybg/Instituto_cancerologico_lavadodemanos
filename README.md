@@ -9,7 +9,7 @@ El modelo logra métricas de rendimiento excepcionales:
 - Precisión: 99.0%
 - Recall: 99.5%
 
-![Métricas del modelo](https://i.imgur.com/ejemplo1.jpg)
+![Métricas del modelo](imagenes/graficas_entrenamiento.png)
 
 ## Conjunto de Datos
 
@@ -43,15 +43,13 @@ El modelo utiliza YOLOv11 (You Only Look Once), una arquitectura de detección d
 
 Los gráficos de entrenamiento muestran un patrón de convergencia estable:
 
-![Gráficos de entrenamiento](https://i.imgur.com/ejemplo2.jpg)
+![Gráficos de entrenamiento](imagenes/graficas_funcion_error.png)
 
 - **Box Loss**: Comenzó en ~2.2 y se estabilizó alrededor de 0.8
 - **Class Loss**: Comenzó en ~3.0 y se estabilizó alrededor de 0.2
 - **DFL Loss**: Comenzó en ~1.8 y se estabilizó alrededor de 1.2-1.3
 
 La métrica mAP muestra una mejora rápida en las primeras épocas, alcanzando más del 90% en la época 20, y continuando mejorando gradualmente hasta 99.3% al final del entrenamiento.
-
-![Gráfico de mAP](https://i.imgur.com/ejemplo3.jpg)
 
 ## Rendimiento del Modelo
 
