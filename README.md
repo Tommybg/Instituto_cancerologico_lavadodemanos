@@ -96,7 +96,7 @@ print(detecciones)
 ## Pesos del Modelo
 
 Los pesos del modelo entrenado están disponibles en el directorio `weights`:
-- `lavado_mano_roboflow3.0.pt`
+- `weights.pt`
 
 ## Licencia
 
