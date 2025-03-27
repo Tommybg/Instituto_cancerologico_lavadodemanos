@@ -1,7 +1,8 @@
 # Modelo de Detección de Lavado de Manos (YOLOv11)
 
 **Detalles sobre la arquitectura de Yolo V11 en detalle [aquí](https://medium.com/@nikhil-rao-20/yolov11-explained-next-level-object-detection-with-enhanced-speed-and-accuracy-2dbe2d376f71)** 
-**Informe proceso [aquí](https://unisabanaedu-my.sharepoint.com/:w:/g/personal/santiagotoco_unisabana_edu_co/EcKYvtMhk35MlyTZ53RhrLABUFdKgkWROHxvPJigX_v6CQ?e=i6hhjd)
+
+**Informe proceso [aquí](https://unisabanaedu-my.sharepoint.com/:w:/g/personal/santiagotoco_unisabana_edu_co/EcKYvtMhk35MlyTZ53RhrLABUFdKgkWROHxvPJigX_v6CQ?e=i6hhjd)**
 
 ## Descripción General
 
