@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detección de Lavado de Manos</title>
+    <link
+        href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+        rel="stylesheet"
+    />
+    <script src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
+    <script
+        src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"
+    ></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script src="https://cdn.socket.io/4.4.1/socket.io.min.js"></script>
+    <style>
+        @keyframes circularProgress {
+            0% {
+                stroke-dasharray: 0 100;
+            }
+            100% {
+                stroke-dasharray: 100 100;
+            }
+        }
+        .step-active {
+            transform: scale(1.1);
+            border-color: #4CAF50 !important;
+        }
+        .step-completed {
+            border-color: #4CAF50 !important;
+        }
+        .step-indicator {
+            transition: all 0.3s ease;
+        }
+        .circle-progress {
+            transform: rotate(-90deg);
+            transform-origin: 50% 50%;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 min-h-screen">
+    <div id="root"></div>
+
+    <script src="/static/js/app.js" type="text/babel"></script>
+</body>
+</html>
