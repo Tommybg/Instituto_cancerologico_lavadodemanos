@@ -4,6 +4,8 @@
 
 **Informe del proceso completo [aquí](https://unisabanaedu-my.sharepoint.com/:w:/g/personal/santiagotoco_unisabana_edu_co/EcKYvtMhk35MlyTZ53RhrLABUFdKgkWROHxvPJigX_v6CQ?e=i6hhjd)**
 
+[![Video Preview](assets/video_preview.png)](https://youtu.be/U3cwZligvb4)
+
 ## Descripción General
 
 Este repositorio contiene un modelo de detección de lavado de manos entrenado con la arquitectura YOLOv11 en Roboflow 3.0. El modelo está diseñado para detectar técnicas adecuadas de lavado de manos, necesario para tener accesos a la UCI y cumplir con lso protocolos sanitarios y cuidar de los pacientes. 
