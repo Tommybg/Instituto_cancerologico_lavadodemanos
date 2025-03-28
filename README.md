@@ -81,18 +81,9 @@ pip install -r requirements.txt
 ### Inferencia
 
 ```python
-import torch
-from models import YOLOv11
+# Ejecutar:
 
-# Cargar el modelo
-modelo = YOLOv11.load('weights/lavado_mano_roboflow3.0.pt')
-
-# Ejecutar inferencia en una imagen
-resultados = modelo('ruta/a/imagen.jpg')
-
-# Procesar resultados
-detecciones = resultados.pandas().xyxy[0]
-print(detecciones)
+python app.py 
 ```
 
 ## Pesos del Modelo
