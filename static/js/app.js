@@ -322,11 +322,21 @@ const HandWashingApp = () => {
                            
                             {/* Overlay for incorrect step warning */}
                             {streamActive && !isCorrectStep && detectedStep !== -1 && (
-                                <div className="absolute bottom-4 left-0 right-0 mx-auto w-4/5 bg-yellow-500 bg-opacity-80 text-white py-2 px-4 rounded-lg text-center">
-                                    <p>Por favor realice el paso {currentStep + 1} correctamente</p>
+                                <div className="absolute inset-0 bg-red-500 bg-opacity-30 flex items-center justify-center">
+                                    <div className="bg-white p-6 rounded-lg shadow-lg text-center">
+                                        <div className="text-red-600 text-5xl mb-2">
+                                            <i className="fas fa-exclamation-circle"></i>
+                                        </div>
+                                        <h2 className="text-2xl font-bold text-red-600 mb-2">
+                                            ¡Paso incorrecto!
+                                        </h2>
+                                        <p className="text-gray-700">
+                                            Por favor realice el paso {currentStep + 1} correctamente
+                                        </p>
+                                    </div>
                                 </div>
                             )}
-                           
+
                             {/* Display current detection information */}
                             {boundingBoxes.length > 0 && (
                                 <div className="absolute top-16 left-4 bg-black bg-opacity-70 text-white p-2 rounded text-sm">
