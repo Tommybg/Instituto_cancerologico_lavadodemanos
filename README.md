@@ -96,9 +96,10 @@ Los pesos del modelo entrenado están disponibles en el directorio `weights`:
 
 ## Licencia
 
-[Incluir información de licencia apropiada]
+Este software ha sido desarrollado por Tomás Barón, Samuel Ramirez, Giovanni Moreno y Santiago Toledo-Cortés, de la Facultad de Ingeniería de la Universidad de La Sabana y se otorga al Instituto Nacional de Cancerología un derecho de uso exclusivo. El software no puede ser redistribuido, modificado o utilizado por terceros sin el consentimiento expreso de los desarrolladores. Cualquier otra entidad interesada en el uso de esta tecnología debe contactar a Santiago Toledo-Cortés (santiagotoco@unisabana.edu.co).
 
-## Agradecimientos
+## Referencias
 
-- Roboflow por proporcionar la infraestructura de entrenamiento
-- Desarrolladores de YOLOv11 por la arquitectura de detección de objetos
+- [Roboflow](https://roboflow.com/)
+- [Ultralytics](https://www.ultralytics.com/)
+- [Pytorch](https://pytorch.org/)
